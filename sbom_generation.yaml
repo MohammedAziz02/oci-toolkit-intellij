@@ -19,6 +19,10 @@ steps:
     command: |
       npm install -g @cyclonedx/cdxgen
   - type: Command
+    name: "Java version"
+    command: |
+      java -version
+  - type: Command
     name: "Run cdxgen tool"
     command: |
       cdxgen -t gradle --spec-version 1.4 -o artifactSBOM.json --no-recurse
