@@ -10,7 +10,7 @@ timeoutInSeconds: 1000
 shell: bash
 env:
   variables:
-    #GRADLE_ARGS_DEPENDENCIES: "--configuration runtimeClasspath"
+    GRADLE_ARGS_DEPENDENCIES: "--configuration runtimeClasspath"
     CDXGEN_DEBUG_MODE: "debug"
 
 steps:
